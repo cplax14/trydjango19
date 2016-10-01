@@ -1,0 +1,227 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Http",
+				"Http404"
+			],
+			[
+				"Post",
+				"PostManager"
+			],
+			[
+				"query",
+				"queryset_list"
+			],
+			[
+				"auto_",
+				"auto_now_add"
+			],
+			[
+				"slug",
+				"slugify"
+			],
+			[
+				"slu",
+				"SlugField"
+			],
+			[
+				"pre_save",
+				"pre_save_post_receiver"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/parallels/Documents/trydjango19/media_cdn",
+		"/home/parallels/Documents/trydjango19/src",
+		"/home/parallels/Documents/trydjango19/src/posts",
+		"/home/parallels/Documents/trydjango19/src/posts/migrations",
+		"/home/parallels/Documents/trydjango19/src/posts/templatetags",
+		"/home/parallels/Documents/trydjango19/src/static",
+		"/home/parallels/Documents/trydjango19/src/static/css",
+		"/home/parallels/Documents/trydjango19/src/templates",
+		"/home/parallels/Documents/trydjango19/src/trydjango19",
+		"/home/parallels/Documents/trydjango19/static_cdn",
+		"/home/parallels/Documents/trydjango19/static_cdn/admin",
+		"/home/parallels/Documents/trydjango19/static_cdn/admin/css"
+	],
+	"file_history":
+	[
+		"/home/parallels/Documents/trydjango19/src/trydjango19/urls.py",
+		"/home/parallels/Documents/trydjango19/src/posts/models.py",
+		"/home/parallels/Documents/trydjango19/src/posts/urls.py",
+		"/home/parallels/Documents/trydjango19/src/trydjango19/settings.py",
+		"/home/parallels/Documents/trydjango19/src/posts/views.py",
+		"/home/parallels/Documents/trydjango19/src/templates/base.html",
+		"/home/parallels/Documents/trydjango19/src/templates/post_detail.html",
+		"/home/parallels/Documents/trydjango19/src/posts/templatetags/urlify.py",
+		"/home/parallels/Documents/trydjango19/src/posts/forms.py",
+		"/home/parallels/Documents/trydjango19/src/templates/post_form.html",
+		"/home/parallels/Documents/trydjango19/src/templates/post_list.html",
+		"/home/parallels/Documents/trydjango19/src/posts/templatetags/__init__.py",
+		"/home/parallels/Documents/trydjango19/src/db.sqlite3",
+		"/home/parallels/Documents/trydjango19/src/static/css/base.css",
+		"/home/parallels/Documents/trydjango19/src/templates/index.html",
+		"/home/parallels/Documents/trydjango19/src/templates/messages_display.html",
+		"/home/parallels/Documents/trydjango19/src/static/base.css",
+		"/home/parallels/Documents/trydjango19/src/posts/admin.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"obj"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"instance"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "trydjango19.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

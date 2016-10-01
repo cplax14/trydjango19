@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load urlify %}
+
+{% block head_title %}{{ instance.title }} | {{ block.super }}{% endblock head_title%}
+<style>
+{% block style %}
+
+h1 {
+	color: #777777;
+}
+
+{% endblock style %}
+
+</style>
+
+
+{% block content %}
+<div class='col-sm-6 col-sm-offset-3'>
+      {% if instance.image %}
+        <img src='{{ instance.image.url}}' class='img-responsive'>
+      {% endif %}
+<h1>{{ title }} <small>{% if instance.draft %} <span style='color:red;'>Draft </span>{% endif %}{{instance.publish}}</small></h1>
+{% if instance.user.get_full_name %}
+<p>Author: {{instance.user.get_full_name}}</p>
+{% else %}
+<p>Author: {{instance.user}}</p>
+{% endif %}
+<p><div class="fb-like" data-href="{{ request.build_absolute_uri }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+</p>
+
+{{instance.title}}<br/>
+<div class='col-sm-12'>
+<hr />
+{{instance.content|linebreaks}}<br/>
+<hr />
+</div>
+{{share_string}}
+{{ instance.content|truncatechars:20|urlify }}<br/>
+<p>
+{{ request.build_absolute_uri }}
+<a href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}">
+Facebook
+</a>
+<a href="https://twitter.com/home?status={{ instance.content|truncatechars:20|urlify }}%20{{ request.build_absolute_uri }}">
+Twitter
+</a>
+</p>
+<div class=" col-sm-12 fb-comments" data-href="{{ request.build_absolute_uri }}" data-numposts="5"></div>
+
+</div>
+
+{% endblock content %}
+
